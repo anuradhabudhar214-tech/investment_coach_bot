@@ -1,4 +1,4 @@
-**# Investment Coach Bot (Telegram)**
+# Investment Coach Bot (Telegram)
 
 This project was built as a **take-home assignment for the AI/ML internship at PineOS.ai**.
 
@@ -35,10 +35,10 @@ investment_coach_bot/
 git clone https://github.com/anuradhabudhar214-tech/investment_coach_bot.git
 cd investment_coach_bot
 
-**## Install dependencies**
+ **Install dependencies**
 pip install -r requirements.txt
 
-**## Create a .env file**
+** Create a .env file**
 BOT_TOKEN=your_telegram_bot_token
 OPENAI_API_KEY=your_openai_api_key
 
@@ -48,3 +48,4 @@ python telegram_bot.py
 **# Notes**
 This bot provides educational content only
 No personalized financial advice is given
+
