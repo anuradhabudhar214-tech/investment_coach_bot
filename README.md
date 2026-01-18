@@ -30,7 +30,7 @@ investment_coach_bot/
 
 ## Setup & Run
 
-**### 1. Clone the repository**
+**##1. Clone the repository**
 ```bash
 git clone https://github.com/anuradhabudhar214-tech/investment_coach_bot.git
 cd investment_coach_bot
@@ -48,4 +48,5 @@ python telegram_bot.py
 **# Notes**
 This bot provides educational content only
 No personalized financial advice is given
+
 
