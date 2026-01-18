@@ -1,63 +1,50 @@
-Investment Coach Bot (Telegram)
+**# Investment Coach Bot (Telegram)**
 
-This project was built as a take-home assignment for the AI/ML internship at PineOS.ai.
+This project was built as a **take-home assignment for the AI/ML internship at PineOS.ai**.
 
 It is a Telegram bot that provides:
+- Educational investment coaching
+- Neutral market commentary
+- Safety filtering to avoid personalized financial advice
 
-Educational investment coaching
+## Features
+- `/coach` command for investment education
+- `/commentary` command for market insights
+- Rule-based filtering using Python
+- Environment-based secret management
 
-Neutral market commentary
-
-Safety filtering to avoid personalized financial advice
-
-Features
-
-/coach command for investment education
-
-/commentary command for market insights
-
-Rule-based filtering using Python
-
-Environment-based secret management
-
-Project Structure
-
+## Project Structure
 investment_coach_bot/
-telegram_bot.py
-advice_filter.py
-coach.txt
-commentary.txt
-requirements.txt
-.env.example
-README.md
+├── telegram_bot.py
+├── advice_filter.py
+├── coach.txt
+├── commentary.txt
+├── requirements.txt
+├── .env.example
+└── README.md
 
-Requirements
+## Requirements
+- Python 3.10+
+- Telegram Bot Token
+- OpenAI API Key
 
-Python 3.10 or higher
+## Setup & Run
 
-Telegram Bot Token
-
-OpenAI API Key
-
-Setup & Run
-
-Clone the repository
+**### 1. Clone the repository**
+```bash
 git clone https://github.com/anuradhabudhar214-tech/investment_coach_bot.git
-
 cd investment_coach_bot
 
-Install dependencies
+**## Install dependencies**
 pip install -r requirements.txt
 
-Create a .env file
+**## Create a .env file**
 BOT_TOKEN=your_telegram_bot_token
 OPENAI_API_KEY=your_openai_api_key
 
-Run the bot
+**## Run the bot**
 python telegram_bot.py
 
-Notes
-
+**# Notes**
 This bot provides educational content only
-
 No personalized financial advice is given
