@@ -1,0 +1,29 @@
+# How to test the Investment Coach Bot
+
+1. Open CMD / Terminal
+   cd Desktop\investment_bot
+   venv\Scripts\activate.bat   # activate virtual environment
+   python telegram_bot.py      # start the bot
+
+2. Open Telegram
+   Go to your bot using the link or username:
+   t.me/investment_coach_demo_2026_bot
+
+3. Commands to test
+
+- /start
+  → Bot shows welcome message with mode options
+
+- /coach
+  → Bot switches to Coach mode
+  → Ask: "What is SIP?" → Bot gives educational answer
+  → Ask advice: "Which stock should I buy?" → Bot politely refuses
+
+- /commentary
+  → Bot switches to Market Commentary mode
+  → Ask: "Why did markets fall today?" → Bot gives neutral commentary
+
+4. Notes
+- Each mode responds differently according to the prompt files.
+- Bot refuses any advice to ensure safety.
+- Bot must be running in CMD to respond.
