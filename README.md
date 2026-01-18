@@ -1,52 +1,50 @@
-# Investment Coach Bot (Telegram)
+Investment Coach Bot (Telegram)
 
-This project was built as a **take-home assignment for the AI/ML internship at PineOS.ai**.
+This project is created as a take-home assignment for the AI/ML internship at PineOS.ai.
 
-It is a Telegram bot that provides:
-- Educational investment coaching
-- Neutral market commentary
-- Safety filtering to avoid personalized financial advice
+It is a simple Telegram bot that gives educational investment guidance and general market commentary.
+The bot is designed to avoid giving personal financial advice and focuses only on learning purposes.
 
-## Features
-- `/coach` command for investment education
-- `/commentary` command for market insights
-- Rule-based filtering using Python
-- Environment-based secret management
+What this bot does:
 
-## Project Structure
-investment_coach_bot/
-├── telegram_bot.py
-├── advice_filter.py
-├── coach.txt
-├── commentary.txt
-├── requirements.txt
-├── .env.example
-└── README.md
+Gives basic investment related guidance using the /coach command
 
-## Requirements
-- Python 3.10+
-- Telegram Bot Token
-- OpenAI API Key
+Provides market commentary using the /commentary command
 
-## Setup & Run
+Uses simple Python logic for filtering responses
 
-**##1. Clone the repository**
-```bash
+Uses environment variables for API keys
+
+Project files:
+telegram_bot.py – main file to run the Telegram bot
+advice_filter.py – logic for filtering responses
+coach.txt – investment coaching content
+commentary.txt – market commentary content
+requirements.txt – required Python libraries
+.env.example – example environment file
+
+Requirements:
+Python 3.10 or above
+Telegram Bot Token
+OpenAI API Key
+
+How to run the project:
+
+Clone the repository
 git clone https://github.com/anuradhabudhar214-tech/investment_coach_bot.git
+
+Go to the project folder
 cd investment_coach_bot
 
- **Install dependencies**
+Install required packages
 pip install -r requirements.txt
 
-** Create a .env file**
+Create a .env file and add your keys
 BOT_TOKEN=your_telegram_bot_token
 OPENAI_API_KEY=your_openai_api_key
 
-**## Run the bot**
+Run the bot
 python telegram_bot.py
 
-**# Notes**
-This bot provides educational content only
-No personalized financial advice is given
-
-
+Note:
+This project is for educational purposes only and does not provide personalized financial advice.
